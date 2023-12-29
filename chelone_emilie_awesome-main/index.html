@@ -8,7 +8,7 @@
         <title>CHÉLONÉ Émilie</title>
                 
         <!-- feuilles de css -->
-        <link rel="stylesheet" href="css/index.css">
+        <link id="theme-style" rel="stylesheet" href="css/index.css">
 
         <!-- font awesome cdn link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -32,9 +32,17 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="#home">Menu</a></li>
-                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#about">Profil</a></li>
                     <li><a href="#education">Formation</a></li>
                     <li><a href="#portfolio">Projets</a></li>
+                    <div id="google_translate_element"></div>
+                    <script type="text/javascript">// <![CDATA[
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                    }
+                    // ]]></script>
+                    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+
                 </ul>
             </nav>
             
@@ -63,7 +71,7 @@
                     <h3><span>Objectif : </span>développer la sécurité numérique sur mon île</h3>
                     <h3><span>Langue : </span>Créole Réunionnais, Français, Anglais, Espagnol</h3>
                     <h3><span>Coordonnées : </span>emiliechelone2004@gmail.com</h3>
-                    <a href="CV_emilie _chelone.pdf"><button class="btn">Télécharger CV <i class="fas fa-download"></i></button></a>
+                    <a href="CV_emilie _chelone.pdf" target="_blank"><button class="btn">Télécharger CV <i class="fas fa-download"></i></button></a>
                 </div>
 
 
@@ -80,13 +88,13 @@
                     </div>
 
                     <div class="box">
-                        <span>SE</span>
+                        <span>Système Exploitation</span>
                         <h2>Windows / Linux (Debian, Kali)</h2>
                     </div>
 
                     <div class="box">
                         <span>Cyber</span>
-                        <h2>Wireshark / Nmap / John</h2>
+                        <h2>Wireshark / Nmap / John / OWASP</h2>
                     </div>
 
                     <div class="box">
@@ -106,7 +114,7 @@
 
         <!-- section education -->
         <section class="education" id="education">
-            <h1 class="heading">Parcours <span>Éducatif</span></h1>
+            <h1 class="heading"><span>Formation</span></h1>
 
             <div class="box-container">
 
@@ -147,56 +155,67 @@
 
         <!-- portfolio-->
         <section class="portfolio" id="portfolio">
-            <h1 class="heading">Mes <span>Projets</span></h1>
 
+            <h2 class="heading">Partie <span>Réseau</span></h2>
             <div class="box-container">
 
                 <div class="box" data-name="p-1">
                     <a href="projet/SAE101_PROJET.pdf" target="_blank"><img src="image/projet/cyber1.png" alt=""></a>
                     <h3>Initiation à <span>l'hygiène informatique</span> et à la <span>Cybersécurité</span></h3>
-                    <div class="CR">Objectif : sensibiliser aux bonnes pratiques de sécurité informatique, adopter les bons réflexes et rendre conscient, 
-                        averti et responsable de l'environnement numérique.
-                        <br><br>Cliquez sur l'image pour une surprise<br>Voir <a href="projet/SAE101_TP1.pdf">compte rendu</a></div>
+                    <div class="CR">
+                        <br>Réflexes de sécurité numérique<br>Attestation MOOC de l'ANSSI
+                        <br><br>Cliquez sur l'image pour une surprise
+                        <br>Voir <a href="projet/SAE101_TP1.pdf" target="_blank">compte rendu</a></div>
 
                 </div>
+
+                <div class="box" data-name="p-3">
+                    <img src="image/projet/raspi2.jpg" alt="">
+                    <h3>Thermomètre via <span>Raspberry Pi</span></h3>
+                    <div class="CR"> 
+                        <br>Protocole MQTT - Raspberry Pi - Python
+                         <br>
+                         <br>Voir <a href="projet/SAE102_CR.pdf" target="_blank">compte rendu</a></div>
+                </div>
+
+                <div class="box" data-name="p-4">
+                    <a href="image/projet/asterisk1.mp4" target="_blank"><img src="image/projet/r204.png" alt=""></a>
+                   <h3>Mise en place d'un système <span>téléphonique d'entreprise</span></h3>
+                   <div class="CR">
+                        <br>Asterisk - 3CX phone -  IPBX
+                       <br><br>Cliquez sur l'image pour une surprise
+                       <br>Voir <a href="projet/R204.pdf" target="_blank">compte rendu</a></div>
+               </div>
+
+               <div class="box" data-name="p-5">
+                <a href="projet/SAE201.pdf" target="_blank"><img src="image/projet/sae201.png" alt=""></a>
+                <h3>Construction d'un <span>réseau informatique</span> pour une petite structure</h3>
+                <div class="CR">
+                    <br><br>Pfsense - FTP - HTTP - DMZ - VLAN - Routage
+                    <br><br>Cliquez sur l'image pour une surprise
+                    <br>Voir <a href="projet/SAE201_CR.pdf" target="_blank">compte rendu</a></div>
+                </div>
+
+            </div>
+
+            <h2 class="heading">Partie <span>Programmation</span></h2>
+            <div class="box-container">
+
 
                 <div class="box" data-name="p-2">
                     <img src="image/projet/bn2.png" alt="">
                     <h3>Bataille naval en <span>langage C</span></h3>
-                    <div class="CR">Objectif :  traiter des données provenant d'un système d'information, les nettoyer, les extraire 
-                        et les présenter de manière synthétique en développant des scripts ou des programmes automatisés.
-                        <br><br>Code du jeu non disponible.</div>
-                </div>
-
-                <div class="box" data-name="p-3">
-                    <a href="projet/SAE102_PROJET.pdf" target="_blank"><img src="image/projet/raspi2.jpg" alt=""></a>
-                    <h3>Thermomètre via <span>Raspberry Pi</span></h3>
-                    <div class="CR"> Objectif :  comprendre la diversité des composants d'un réseau informatique et leurs interactions,
-                         afin de les configurer correctement et assurer un fonctionnement stable.
-                         <br><br>Cliquez sur l'image pour une surprise<br>Voir <a href="projet/SAE102_CR.pdf">compte rendu</a></div>
-                </div>
-
-                <div class="box" data-name="p-4">
-                     <a href="image/projet/asterisk1.mp4" target="_blank"><img src="image/projet/r204.png" alt=""></a>
-                    <h3>Initiation à la <span>téléphonie d'entreprise</span></h3>
-                    <div class="CR">Objectif : mettre en place un système téléphonique d'entreprise.
-                        <br><br>Cliquez sur l'image pour une surprise<br>Voir <a href="projet/R204.pdf">compte rendu</a></div>
-                </div>
-
-                <div class="box" data-name="p-5">
-                    <a href="projet/SAE201.pdf" target="_blank"><img src="image/projet/sae201.png" alt=""></a>
-                    <h3>Construire un <span>réseau informatique</span> pour une petite structure</h3>
-                    <div class="CR">Objectif :  concevoir et déployer le réseau informatique d'une petite entreprise à plusieurs sites, 
-                        en répondant aux besoins de commutation, de routage, de services réseau de base et de sécurité spécifiés par la structure.
-                        <br><br>Cliquez sur l'image pour une surprise<br>Voir <a href="projet/SAE201_CR.pdf">compte rendu</a></div>
+                    <div class="CR">
+                        <br>Code du jeu non disponible.</div>
                 </div>
 
                 <div class="box" data-name="p-6">
                     <a href="https://youtu.be/mlu0PTJ0pQE" target="_blank"><img src="image/projet/sae203.png" alt=""></a>
-                    <h3>Mettre en place une <span>solution informatique</span> pour l'entreprise</h3>
-                    <div class="CR">Objectif : développer des solutions informatiques qui vont au-delà du simple traitement des données,
-                        ces solutions incluent la gestion de données structurées, les traitements et les interactions utilisateurs via une interface.
-                        <br><br>Cliquez sur l'image pour une surprise<br>Voir <a href="https://github.com/emiemi04/sae203.git">code</a>
+                    <h3>Mise en place d'<span>solution informatique</span> pour l'entreprise</h3>
+                    <div class="CR">
+                        <br>PHP - SQL - JavaScript
+                        <br><br>Cliquez sur l'image pour une surprise
+                        <br>Voir <a href="https://github.com/emiemi04/sae203.git" target="_blank">code</a>
                 </div>
             </div>
 
@@ -213,6 +232,8 @@
 
         <!-- jquery via cdn -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        
+
 
         <!-- feuille de js -->
         <script src="main.js"></script>
