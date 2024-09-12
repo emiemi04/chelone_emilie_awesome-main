@@ -1,6 +1,9 @@
-# My Portfolio
-Welcome on my portfolio that I made from A to Z (using templates and youtube tutos lmao)
+# CHÉLONÉ_Émilie_awesome
 
-You'll find information about me, my school and professionnal parcours. It's mainly in french, because I am french...
+Welcome on my portfolio. It's written in French. 
 
-Enjoy (✿◠‿◠)
+You'll fine projects that I did during my years of formation in Reunion Island's IUT.
+
+I studied Network and Telecommunications, so you're mainly going to fine network, cybersecurity, programmation purposes.
+
+This website was made 100% by me.
