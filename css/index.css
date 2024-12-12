@@ -276,6 +276,10 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
+.education .box-container .box a{
+    color: #DAF;
+}
+
 .education .box-container .box i{
     position: absolute;
     top: -1.5rem; left: -2.5rem;
