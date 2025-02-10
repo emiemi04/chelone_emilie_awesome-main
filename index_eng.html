@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>CHÉLONÉ Émilie</title>
+                
+        <!-- feuilles de css -->
+        <link id="theme-style" rel="stylesheet" href="css/index.css">
+
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- favicon logo -->
+        <link rel="apple-touch-icon" sizes="180x180" href="image/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+    </head>
+
+    <body>
+        <!-- entete -->
+        <header class="header">
+            <div class="user">
+                <img src="image/moi1.jpeg" alt="">
+                <h3 class="name">Émilie CHÉLONÉ</h3>
+                <p class="post">Network and Telecoms student</p>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Profil</a></li>
+                    <li><a href="#education">Formation</a></li>
+                    <li><a href="#portfolio">Executed projects</a></li>
+                    <li><a href="index.html">French version</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <!-- section home -->
+        <section class="home" id="home">
+            <h3>Hello world !</h3>
+            <h1>I am <span>Émilie CHÉLONÉ</span></h1>
+            <p>Welcome to my website! Here you'll find information about me, my educational background and the projects I've carried out 
+                to enhance my knowledge of networks and cybersecurity.
+            </p>
+            <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
+        </section>
+
+        <!-- section about -->
+        <section class="about" id="about">
+            <h1 class="heading">About <span>Me</span></h1>
+            <div class="row">
+
+                <div class="info">
+                    <h3><span>Name : </span>CHÉLONÉ Émilie</h3>
+                    <h3><span>Place of birth : </span>Reunion Island </h3>
+                    <h3><span>Goal : </span>improve digital security on my island</h3>
+                    <h3><span>Language : </span>Reunionnese Creole, French, English, Spanish</h3>
+                    <h3><span>Contact : </span>emiliechelone2004@gmail.com</h3>
+                    <a href="CV_chelone_emilie_eng.pdf" target="_blank"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+                </div>
+
+
+                <div class="counter">
+
+                    <div class="box">
+                        <span>Cybersecurity</span>
+                        <h2>Audit / Pentest / Compliance / Digital awareness</h2>
+                    </div>
+
+                    <div class="box">
+                        <span>Virtualisation</span>
+                        <h2>VMware / GNS3 / Cisco Packet Tracer</h2>
+                    </div>
+
+                    <div class="box">
+                        <span>Operating Systems</span>
+                        <h2>Windows (client/server) / Linux (Debian, Kali)</h2>
+                    </div>
+
+                    <div class="box">
+                        <span>Audit tools</span>
+                        <h2>OpenVAS / Ping Castle / Purple Knight / Nmap / OWASP</h2>
+                    </div>
+
+                    <div class="box">
+                        <span>Configuration</span>
+                        <h2>Apache Guacamole / Watchguard / Centreon</h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section education -->
+        <section class="education" id="education">
+            <h1 class="heading"><span>Formation</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2025</span>
+                    <h3>Bachelor degree Network & Telecommunications</h3>
+                    <p>Cybersecurity course</p>
+                    <p>Technological University Institute SAINT-PIERRE
+                    <br>- MOOC ANSSI
+                    <br>
+                    <br>CISO Apprentice - <a href="https://youtell.re/" target="_blank">YOUTELL</a>
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2022</span>
+                    <h3>BACHIBAC - Math & Ingeneering Science</h3>
+                    <p>Evariste Parny High School SAINT-PAUL
+                    <br>High School Diploma in French and Spanish
+                    <br>- DELE nivel B2
+                    <br>- Certification PIX
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2019</span>
+                    <h3>Brevet (French-Spanish Binational Diploma)</h3>
+                    <p>Bernica Middle School SAINT-PAUL
+                    <br>- Young Writer Award
+                    <br>- Certificate Big Challenge
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- portfolio-->
+        <section class="portfolio" id="portfolio">
+            <!-- Cyber -->
+            <h2 class="heading"><span>Cybersecurity</span> & <span>Network</span></h2>
+            <div class="box-container">
+
+                <div class="box" data-name="p-1">
+                    <img src="image/projet/proj1.png" alt="">
+                    <h3><span>Phishing</span> Campaign</h3>
+                    <div class="CR">
+                        <br>Phishing awareness
+                        <br><a href="https://www.mailinblack.com/" target="_blank">Mail In Black</a>
+                    </div>
+                </div>
+
+                <div class="box" data-name="p-2">
+                    <img src="image/projet/proj2.png" alt="">
+                    <h3><span>Vulnerability audit</span></h3>
+                    <div class="CR">
+                        <br>Find vulnerabilities - Corrective actions - Writing report
+                    </div>
+                </div>
+
+                <div class="box" data-name="p-3">
+                    <a href="projet/BLUE WAVE LOGISTIC_ENG.pdf" target="_blank"><img src="image/projet/proj3.png" alt=""></a>
+                    <h3>Setting up a<span> secure infrastructure</span></h3>
+                    <div class="CR">
+                        <br>Secure architecture - Security Operation Center - Governance Risk Compliance - Audit
+                    </div>
+                </div>
+
+                <!-- Réseau -->
+                <div class="box" data-name="p-1">
+                    <a href="image/projet/asterisk1.mp4" target="_blank"><img src="image/projet/proj4.png" alt=""></a>
+                    <h3>Deploy <span>VoIP phone system</span></h3>
+                    <div class="CR">
+                        <br>Tools : Asterisk - 3CX phone -  IPBX
+                    </div>
+                </div>
+
+                <div class="box" data-name="p-2">
+                        <img src="image/projet/proj5.png" alt="">
+                        <h3>Building an <span>IT network</span> for a small</h3>
+                        <div class="CR">
+                            <br>Firewall - FTP - HTTP - DMZ - VLAN - Routage
+                        </div>
+                </div>
+            </div>
+
+             <!-- Programmation -->
+                <h2 class="heading"><span>Programming</span></h2>
+                <div class="box-container">
+                    <div class="box" data-name="p-1">
+                        <img src="image/projet/prog1.png" alt="">
+                        <h3>Simple store <span>management system</span></h3>
+                        <div class="CR">
+                            <br>Tools : PHP - SQL
+                            <br>Github link to the <a href="https://github.com/emiemi04/sae203/tree/master" target="_blank">Project</a>
+                        </div>
+                     </div>
+            
+                     <div class="box" data-name="p-2">
+                        <a href="projet/Meow connect_ENG.pdf" target="_blank"><img src="image/projet/prog2.png" alt=""></a>
+                        <h3>Develop a <span>Communicative application</span></h3>
+                        <div class="CR">
+                            <br>Tools : Python - Tkinter
+                            <br>Github link to the project <span>unavailable</span>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- scroll to the top-->
+        <a href="#" class="top">
+            <img src="image/favicon_io/favicon-32x32.png" alt="">
+        </a>
+
+        <footer>
+            Created by <span>CHÉLONÉ Émilie</span> | <a href="mentions.html">Mentions légales <i>(french)</i></a>
+        </footer>
+
+        <!-- jquery via cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        
+        <!-- feuille de js -->
+        <script src="main.js"></script>
+    </body>
+</html>
