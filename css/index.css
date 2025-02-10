@@ -222,7 +222,7 @@ header .navbar ul li a:hover{
     color: var(--purple);  
 }
 
-.about .row .counter .box h2{
+.about .row .counter .box p{
     font-size: 2rem;
     color: #fff;  
 }
